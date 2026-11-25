@@ -1,0 +1,54 @@
+{
+  "name": "imap-mail-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for 网易 / 新浪 / 完美邮箱 over IMAP + SMTP — 7 tools, no vendor API required, with the Windows TLS quirks handled.",
+  "type": "module",
+  "bin": {
+    "imap-mail-mcp": "server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "providers.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node server.mjs serve",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "imap",
+    "smtp",
+    "email",
+    "mail",
+    "163",
+    "126",
+    "yeah",
+    "sina",
+    "88",
+    "perfect-mail",
+    "agent",
+    "llm",
+    "claude"
+  ],
+  "author": "EastMG",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EastMG/imap-mail-mcp.git"
+  },
+  "homepage": "https://github.com/EastMG/imap-mail-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/EastMG/imap-mail-mcp/issues"
+  },
+  "dependencies": {
+    "imapflow": "^2.12.2",
+    "mailparser": "^3.15.0",
+    "nodemailer": "^10.6.1"
+  }
+}

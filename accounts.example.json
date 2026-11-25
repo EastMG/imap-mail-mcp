@@ -1,0 +1,25 @@
+[
+  {
+    "id": "163",
+    "email": "you@163.com",
+    "password": "客户端授权密码（不是网页登录密码）"
+  },
+  {
+    "id": "sina",
+    "email": "you@sina.com",
+    "password": "16 位授权码"
+  },
+  {
+    "id": "88",
+    "email": "you@88.com",
+    "password": "专用密码"
+  },
+  {
+    "id": "custom",
+    "email": "you@your-domain.com",
+    "password": "…",
+    "imapHost": "imap.example.com",
+    "smtpHost": "smtp.example.com",
+    "tlsSecLevel": 1
+  }
+]

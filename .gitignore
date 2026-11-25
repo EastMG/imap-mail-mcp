@@ -1,0 +1,9 @@
+node_modules/
+accounts.json
+accounts.json.*.tmp
+downloads/
+sends.log
+*.log
+*.pem
+.env
+.DS_Store
